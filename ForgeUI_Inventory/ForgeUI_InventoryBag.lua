@@ -19,7 +19,11 @@ local karCurrency =  	-- Alt currency table; re-indexing the enums so they don't
 	{eType = Money.CodeEnumCurrencyType.ElderGems, 			strTitle = Apollo.GetString("CRB_Elder_Gems"), 			strDescription = Apollo.GetString("CRB_Elder_Gems_Desc")},
 	{eType = Money.CodeEnumCurrencyType.Glory, 			strTitle = Apollo.GetString("CRB_Glory"), 			strDescription = Apollo.GetString("CRB_Glory_Desc")},
 	{eType = Money.CodeEnumCurrencyType.Prestige, 			strTitle = Apollo.GetString("CRB_Prestige"), 			strDescription = Apollo.GetString("CRB_Prestige_Desc")},
-	{eType = Money.CodeEnumCurrencyType.CraftingVouchers, 	strTitle = Apollo.GetString("CRB_Crafting_Vouchers"), 	strDescription = Apollo.GetString("CRB_Crafting_Voucher_Desc")}
+	{eType = Money.CodeEnumCurrencyType.CraftingVouchers, 	strTitle = Apollo.GetString("CRB_"), 	strDescription = Apollo.GetString("CRB_Crafting_Voucher_Desc")},
+	{eType = AccountItemLib.CodeEnumAccountCurrency.Omnibits, 		strTitle = Apollo.GetString("CRB_OmniBits"), 					strDescription = Apollo.GetString("CRB_OmniBits_Desc"), bAccountItem = true},
+	{eType = AccountItemLib.CodeEnumAccountCurrency.ServiceToken, 	strTitle = Apollo.GetString("AccountInventory_ServiceToken"), 	strDescription = Apollo.GetString("AccountInventory_ServiceToken_Desc"), bAccountItem = true},
+	{eType = AccountItemLib.CodeEnumAccountCurrency.MysticShiny, 	strTitle = Apollo.GetString("CRB_FortuneCoin"), 				strDescription = Apollo.GetString("CRB_FortuneCoin_Desc"), bAccountItem = true},
+
 }
 
 function ForgeUI_Inventory:new(o)
